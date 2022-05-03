@@ -1,0 +1,25 @@
+CREATE TABLE Faktury (
+Id int identity(0,1) 
+PRIMARY KEY, 
+datum varchar(50), 
+cislo int, 
+odberatel varchar(50),
+nazev varchar(50),
+pocet int,
+cenaza int,
+celkcena int,
+DPH int,
+cenasDPH int,
+)
+
+INSERT INTO Faktury VALUES(
+  '10-12-1998',
+  20,
+  'Odberatel',
+  'Lol',
+  10,
+  2000,
+  30,
+  40,
+  50
+)
